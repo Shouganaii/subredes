@@ -23,15 +23,6 @@ and open the template in the editor.
             <input type="submit" value="div" onclick="criarEelemento(this.value)">
             <input type="submit" value="button" onclick="criarEelemento(this.value)">
         </form>
-        <script>
-        function criarElement(tag){
-       var elemento = document.createElement(tag);     
-     elemento.innerHtml = "div";
-    document.getElementById("secElementos").appendChild(elemento);
-    }
-        
-        
-        </script>
     </body>
 </html>
 <?php
